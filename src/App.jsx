@@ -1,40 +1,4 @@
-<<<<<<< HEAD
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
-
-export default App
-=======
+// src/App.jsx
 import './App.css';
 
 function App() {
@@ -69,7 +33,7 @@ function App() {
       </section>
 
       {/* Technical Skills */}
-      <section className="section skills">
+      <section className="section technical-skills">
         <h3>Technical Skills</h3>
         <ul>
           <li>HTML</li>
@@ -82,7 +46,7 @@ function App() {
       </section>
 
       {/* Soft Skills */}
-      <section className="section skills">
+      <section className="section soft-skills">
         <h3>Soft Skills</h3>
         <ul>
           <li>Project Management</li>
@@ -115,7 +79,9 @@ function App() {
       {/* Declaration */}
       <section className="section declaration">
         <h3>Declaration</h3>
-        <p>I hereby declare that all the information provided above is true and correct to the best of my knowledge and belief.</p>
+        <p>
+          I hereby declare that all the information provided above is true and correct to the best of my knowledge and belief.
+        </p>
         <div className="footer">
           <p>Date: 11.07.2025</p>
           <p>Signature: C.Diluja</p>
@@ -126,4 +92,3 @@ function App() {
 }
 
 export default App;
->>>>>>> d42dbaf (Initial commit)

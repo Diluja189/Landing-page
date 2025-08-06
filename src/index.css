@@ -4,13 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-<<<<<<< HEAD
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-=======
-  color: rgba(221, 73, 73, 0.87);
-  background-color: #c54d4d;
->>>>>>> d42dbaf (Initial commit)
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,15 +25,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-<<<<<<< HEAD
-  place-items: center;
+  place-items: center; /* இந்த line-ஐ வைத்துக்கிட்டேன் */
   min-width: 320px;
   min-height: 100vh;
-=======
-  min-width: 320px;
-  min-height: 100vh;
-  text-align: right;
->>>>>>> d42dbaf (Initial commit)
+  /* text-align: right; --> வேண்டும்னா இதையும் வச்சிக்கலாம் */
 }
 
 h1 {
@@ -76,8 +66,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d42dbaf (Initial commit)
